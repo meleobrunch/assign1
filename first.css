@@ -1,0 +1,78 @@
+html,
+body {
+    width: 1280px;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+}
+
+/* 레이아웃에 관한 내용입니다. */
+
+.lof_r{
+    display: flex;
+    flex-direction: row;
+}
+
+.lof_r_same{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lo_up{
+    position: relative;
+}
+
+.lo_dw{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.log {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.lof_c{
+    display: flex;
+    flex-direction: column;
+}
+
+/*높이에 관한 내용입니다.*/
+
+.hght1{
+    height: 200px;
+}
+
+.hght2{
+    height: 200px;
+}
+
+/*색과 관련된 내용입니다.*/
+
+.bw {
+    background: white;
+}
+
+.bg {
+    background: #e3e3e5;
+}
+
+.m0 {
+    margin: 0px;
+}
+
+.m0_1 {
+    margin: 0px 5px;
+}
+
+.m5 {
+    margin: 5px;
+}
